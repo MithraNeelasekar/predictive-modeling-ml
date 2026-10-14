@@ -83,8 +83,9 @@ python test_pipeline.py
 
 ### Step 5: Launch the Streamlit Web Application
 ```powershell
-streamlit run app.py
+python -m streamlit run app.py
 ```
+*(Alternatively: `streamlit run app.py`)*
 After executing this command, Streamlit will open your browser automatically at:
 ```text
 Local URL: http://localhost:8501
